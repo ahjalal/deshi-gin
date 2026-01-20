@@ -1,8 +1,9 @@
 export default {
   fetch(request) {
-    return new Response("deshi gin Worker Live", {
+    return new Response(html, {
       headers: {
-        "content-type": "text/plain",
+        "content-type": "text/html;charset=UTF-8",
+      
       },
     });
   },
